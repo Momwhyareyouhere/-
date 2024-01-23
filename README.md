@@ -25,7 +25,7 @@ This is a basic Snake game implemented in Python for the Linux console using the
 3. Open a terminal and navigate to the project directory:
 
     ```bash
-    cd snake-game
+    cd Snake-game
     ```
 
 4. Run the game using the command:
