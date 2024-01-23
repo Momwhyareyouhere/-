@@ -1,54 +1,32 @@
-# Simple Snake Game in the Linux Console
+# Number Guessing Game
 
-This is a basic Snake game implemented in Python for the Linux console using the curses library.
-
-## Requirements
-
-- Python 3
-- curses library (install with `sudo apt-get install python3-curses`)
-- Ensure your package list is updated:
+A simple command-line number guessing game implemented in Python.
 
 ## How to Play
 
-1. Install Git by running:
-
-2. ```bash
-   sudo apt update
-   ```
+1. Clone or download the repository.
+2. Open a terminal and navigate to the project directory.
+3. Run the game using the command:
 
     ```bash
-    sudo apt-get install git
-    ```
-    ``
-
-3. Clone the repository:
-
-    ```bash
-    git clone https://github.com/Momwhyareyouhere/Snake-Game
+    python3 number_guessing_game.py
     ```
 
-4. Open a terminal and navigate to the project directory:
+4. The program will generate a random number between 1 and 100.
+5. You will be prompted to guess the number. Enter your guess.
+6. The game will provide feedback if your guess is too low or too high.
+7. Continue guessing until you correctly identify the number or type 'exit' to end the game.
 
-    ```bash
-    cd Snake-Game
-    ```
+## Example Gameplay
 
-5. Run the game using the command:
-
-    ```bash
-    python3 snake_game.py
-    ```
-
-6. Use arrow keys (up, down, left, right) to control the snake.
-7. Eat the '#' symbol to grow the snake.
-8. The game ends if the snake hits the borders or collides with itself.
-
-## Contributing
-
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request.
-
-## License
-
-This Snake game is open-source and available under the [MIT License](LICENSE).
-
-Enjoy the game!
+```plaintext
+Welcome to the Number Guessing Game!
+I've chosen a number between 1 and 100. Can you guess it?
+Enter your guess (or 'exit' to end the game): 50
+Too low! Try again.
+Enter your guess (or 'exit' to end the game): 75
+Too high! Try again.
+Enter your guess (or 'exit' to end the game): 60
+Too low! Try again.
+Enter your guess (or 'exit' to end the game): 70
+Congratulations! You've guessed the number in 4 attempts.
