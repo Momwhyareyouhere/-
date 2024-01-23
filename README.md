@@ -19,6 +19,7 @@ This is a basic Snake game implemented in Python for the Linux console using the
     ```bash
     sudo apt-get install git
     ```
+    ``
 
 3. Clone the repository:
 
