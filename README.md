@@ -9,7 +9,7 @@ A simple command-line number guessing game implemented in Python.
 3. Run the game using the command:
 
     ```bash
-    python3 number_guessing_game.py
+    python3 number-guessing.py
     ```
 
 4. The program will generate a random number between 1 and 100.
