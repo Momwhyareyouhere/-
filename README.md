@@ -7,8 +7,12 @@ This is a basic Snake game implemented in Python for the Linux console using the
 - Python 3
 - curses library (install with `sudo apt-get install python3-curses`)
 - Git (install with `sudo apt-get install git`)
+- Ensure your package list is updated:
 
 ## How to Play
+
+  ```bash
+  sudo apt update
 
 1. Install Git by running:
 
