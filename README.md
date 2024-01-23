@@ -29,7 +29,7 @@ This is a basic Snake game implemented in Python for the Linux console using the
 4. Open a terminal and navigate to the project directory:
 
     ```bash
-    cd Snake-game
+    cd Snake-Game
     ```
 
 5. Run the game using the command:
